@@ -1,0 +1,184 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-image: url(./Pictures/entreemcontato.jpeg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+body * {
+    font-family:  'Inter', sans-serif;
+    line-height: 160%;
+}
+header {    
+    padding-top: 32px;
+}
+
+header div{
+    width: 200px;
+    /*background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%); */
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    transition: transform .3s;
+}   
+header div:hover{
+    transform:  scale(1.1);
+}
+
+header div img{
+    width:  100%;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #121214
+
+}
+
+main{
+    max-width: 2100px;
+    width: 90%;
+    margin: 32px;
+    display: grid;
+    gap: 24px;
+}
+section{
+    color: white;
+}
+
+section div{
+
+/*background-color: #2A2634; */
+padding: 32px;
+padding-top: 24px;
+border-radius: 8px;
+border-top: 4px solid red;
+}
+
+section h2{
+    color: #A1A1AA;
+}
+
+section h3{
+    color: red;
+}
+section p{
+    color: #A1A1AA;
+}
+
+section ul{
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;       
+}
+
+section ul li{
+transition: transform .3s;
+}
+
+section ul li:hover{
+    transform: scale(1.1);
+}
+.livros-list img{
+    width:  120px;
+    height: 120px;
+    border-radius: 8px;
+
+}
+.Parcerias-list img{
+    width:  45px;
+    border-radius: 50%;
+}
+
+
+.booktrailers-list img{
+    width:  120px;
+    height: 120px;
+    border-radius: 8px;
+
+}
+.personagens-list img{
+    width:  120px;
+    height: 120px;
+    border-radius: 8px;
+
+}
+
+.redes-sociais img{
+    width:  45px;
+    border-radius: 50%;
+}
+
+/*Animation*/
+
+header div{
+    animation: fromTop .7s .4s backwards;
+}
+
+main section{
+    animation: fromBottom .7s backwards;
+}
+/*Section dos Livros terminados*/
+main section:nth-child(1){
+    animation-delay: 0;
+}
+/*Section das Parcerias*/
+main section:nth-child(2){
+    animation-delay: .1s;
+}
+/*Section dos Booktrailers*/
+main section:nth-child(3){
+    animation-delay: .2s; 
+}
+/*Section dos Personagens*/
+main section:nth-child(4){
+    animation-delay: .3s;
+}
+/*Section das Redes Sociais*/
+main section:nth-child(5){
+    animation-delay: .4s;
+}
+/*Section de Reclamações/suporte*/
+main section:nth-child(6){
+    animation-delay: .4s;
+}
+
+@keyframes fromTop{
+    from
+    {
+        opacity: 0;
+        transform: translateY(-30px);
+    }   
+
+    to
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+                    }
+
+@keyframes fromBottom{
+    from
+    {
+        opacity: 0;
+        transform: translateX(30px);
+    }   
+
+    to
+    {
+         opacity: 1;
+         transform: translateX(0);
+
+    }
+
+}
