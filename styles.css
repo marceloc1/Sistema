@@ -64,7 +64,8 @@ border-top: 4px solid red;
 }
 
 section h2{
-    color: #A1A1AA;
+    /*color: #A1A1AA;*/
+    color: red
 }
 
 section h3{
