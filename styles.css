@@ -9,7 +9,7 @@ ul{
 }
 
 body{
-    margin-top: 30%;
+    margin-top: 35%;
     background-image: url(./Pictures/entreemcontato.jpeg);
     background-position: top center;
     background-size: 100% auto;
@@ -61,7 +61,7 @@ section div{
 padding: 32px;
 padding-top: 24px;
 border-radius: 8px;
-border-top: 4px solid red;
+border-top: 4px solid #A1A1AA;
 }
 
 section h2{
