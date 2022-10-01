@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-ul{
-    list-style: none;
-}
+
 
 body{
     background-position: top center;
@@ -21,24 +19,24 @@ body * {
 header {    
     padding-top: 32px;
 }
-
+/*
 header div{
     width: 200px;
-    /*background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%); */
-    border-radius: 50%;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%); */
+ /*   border-radius: 50%;
     display: flex;
     padding: 4px;
     transition: transform .3s;
 }   
-
+*/
+/*
 header div img{
     width:  100%;
     height: 200px;
     border-radius: 50%;
     border: 4px solid #121214
-
 }
-
+*/
 main{
     max-width: 1080px;
     width: 90%;
