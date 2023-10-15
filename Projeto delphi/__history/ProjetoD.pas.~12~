@@ -8,7 +8,7 @@ uses
 
 type
   TForm1 = class(TForm)
-    pnlMenuPrincipal: TPanel;
+    Panel1: TPanel;
     MainMenu1: TMainMenu;
     mnPrincipalVenda: TMenuItem;
     mnPedido: TMenuItem;

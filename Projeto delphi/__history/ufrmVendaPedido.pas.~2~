@@ -1,0 +1,27 @@
+unit ufrmVendaPedido;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TfrmVendaPedido = class(TForm)
+    pnlPedido: TPanel;
+    btnIncluirProduto: TButton;
+    btnFinalizarVendaPedido: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmVendaPedido: TfrmVendaPedido;
+
+implementation
+
+{$R *.dfm}
+
+end.
