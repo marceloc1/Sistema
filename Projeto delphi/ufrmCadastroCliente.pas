@@ -1,4 +1,4 @@
-unit frmCadastroCliente;
+unit ufrmCadastroCliente;
 
 interface
 

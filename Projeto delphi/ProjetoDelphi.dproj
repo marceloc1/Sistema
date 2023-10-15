@@ -102,13 +102,17 @@
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="frmCadastroCliente.pas">
-            <Form>Form2</Form>
-            <FormType>dfm</FormType>
+        <DCCReference Include="ufrmCadastroCliente.pas">
+            <Form>frmCadastroCliente</Form>
         </DCCReference>
         <DCCReference Include="ufrmVendaPedido.pas">
             <Form>frmVendaPedido</Form>
-            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ufrmCadastroProduto.pas">
+            <Form>frmCadastroProduto</Form>
+        </DCCReference>
+        <DCCReference Include="ufrmGerarRelatorio.pas">
+            <Form>frmGerarRelatorio</Form>
         </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>

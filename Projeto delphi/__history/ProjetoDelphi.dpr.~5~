@@ -1,0 +1,18 @@
+program ProjetoDelphi;
+
+uses
+  Vcl.Forms,
+  ProjetoD in 'ProjetoD.pas' {Form1},
+  ufrmCadastroCliente in 'ufrmCadastroCliente.pas' {frmCadastroCliente},
+  ufrmVendaPedido in 'ufrmVendaPedido.pas' {frmVendaPedido};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmCadastroCliente, frmCadastroCliente);
+  Application.CreateForm(TfrmVendaPedido, frmVendaPedido);
+  Application.Run;
+end.

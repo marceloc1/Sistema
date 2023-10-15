@@ -20,8 +20,8 @@ object frmCadastroCliente: TfrmCadastroCliente
     object Label1: TLabel
       Left = 24
       Top = 45
-      Width = 73
-      Height = 31
+      Width = 54
+      Height = 28
       Caption = 'Nome'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -46,8 +46,8 @@ object frmCadastroCliente: TfrmCadastroCliente
     object Label3: TLabel
       Left = 24
       Top = 15
-      Width = 105
-      Height = 24
+      Width = 102
+      Height = 28
       Caption = 'Tipo Pessoa'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText

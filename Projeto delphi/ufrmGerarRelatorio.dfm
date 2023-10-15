@@ -33,6 +33,7 @@ object frmGerarRelatorio: TfrmGerarRelatorio
       Height = 17
       Caption = 'DBCheckBox1'
       TabOrder = 1
+      ValueUnchecked = 'N'
     end
     object DBCheckBox2: TDBCheckBox
       Left = 59

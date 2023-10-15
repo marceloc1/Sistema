@@ -19,6 +19,10 @@ type
     mnRelatorioCaixa: TMenuItem;
     mnPrincipalSair: TMenuItem;
     mnLogout: TMenuItem;
+    procedure mnPedidoClick(Sender: TObject);
+    procedure mnCadastroClientesClick(Sender: TObject);
+    procedure mnCadastroProdutosClick(Sender: TObject);
+    procedure mnRelatorioCaixaClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,5 +35,27 @@ var
 implementation
 
 {$R *.dfm}
+
+uses ufrmVendaPedido, ufrmCadastroCliente, ufrmCadastroProduto, ufrmGerarRelatorio ;
+
+procedure TForm1.mnCadastroClientesClick(Sender: TObject);
+begin
+  frmCadastroCliente.ShowModal;
+end;
+
+procedure TForm1.mnCadastroProdutosClick(Sender: TObject);
+begin
+  frmCadastroProduto.ShowModal;
+end;
+
+procedure TForm1.mnPedidoClick(Sender: TObject);
+begin
+  frmVendaPedido.ShowModal;
+end;
+
+procedure TForm1.mnRelatorioCaixaClick(Sender: TObject);
+begin
+  frmGerarRelatorio.ShowModal;
+end;
 
 end.

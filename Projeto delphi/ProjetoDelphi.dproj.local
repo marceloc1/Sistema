@@ -2,14 +2,14 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/10/12 11:15:08.000.852,=C:\Users\Marce\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/10/12 11:15:35.000.260,C:\Sistema\Projeto delphi\ProjetoD.dfm=C:\Users\Marce\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/10/12 11:15:35.000.260,C:\Sistema\Projeto delphi\ProjetoD.pas=C:\Users\Marce\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/10/12 11:28:33.000.604,C:\Sistema\Projeto delphi\ProjetoDelphi.dproj=C:\Users\Marce\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/10/12 11:15:35.000.260,C:\Users\Marce\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Sistema\Projeto delphi\ProjetoD.pas</Transaction>
+    <Transaction>2023/10/12 11:15:35.000.260,C:\Users\Marce\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Sistema\Projeto delphi\ProjetoD.dfm</Transaction>
+    <Transaction>2023/10/12 11:28:33.000.604,C:\Users\Marce\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Sistema\Projeto delphi\ProjetoDelphi.dproj</Transaction>
     <Transaction>2023/10/12 14:31:00.000.203,=C:\Sistema\Projeto delphi\Unit2.pas</Transaction>
-    <Transaction>2023/10/12 14:32:52.000.149,C:\Sistema\Projeto delphi\Unit2.dfm=C:\Sistema\Projeto delphi\frmCadastroCliente.dfm</Transaction>
-    <Transaction>2023/10/12 14:32:52.000.149,C:\Sistema\Projeto delphi\Unit2.pas=C:\Sistema\Projeto delphi\frmCadastroCliente.pas</Transaction>
-    <Transaction>2023/10/12 18:02:52.468,=C:\Sistema\Projeto delphi\Unit3.pas</Transaction>
-    <Transaction>2023/10/12 18:13:17.963,C:\Sistema\Projeto delphi\ufrmVendaPedido.dfm=C:\Sistema\Projeto delphi\Unit3.dfm</Transaction>
-    <Transaction>2023/10/12 18:13:17.963,C:\Sistema\Projeto delphi\ufrmVendaPedido.pas=C:\Sistema\Projeto delphi\Unit3.pas</Transaction>
+    <Transaction>2023/10/12 14:32:52.000.149,C:\Sistema\Projeto delphi\frmCadastroCliente.pas=C:\Sistema\Projeto delphi\Unit2.pas</Transaction>
+    <Transaction>2023/10/12 14:32:52.000.149,C:\Sistema\Projeto delphi\frmCadastroCliente.dfm=C:\Sistema\Projeto delphi\Unit2.dfm</Transaction>
+    <Transaction>2023/10/12 18:02:52.000.468,=C:\Sistema\Projeto delphi\Unit3.pas</Transaction>
+    <Transaction>2023/10/12 18:13:17.000.963,C:\Sistema\Projeto delphi\Unit3.dfm=C:\Sistema\Projeto delphi\ufrmVendaPedido.dfm</Transaction>
+    <Transaction>2023/10/12 18:13:17.000.963,C:\Sistema\Projeto delphi\Unit3.pas=C:\Sistema\Projeto delphi\ufrmVendaPedido.pas</Transaction>
   </Transactions>
 </BorlandProject>

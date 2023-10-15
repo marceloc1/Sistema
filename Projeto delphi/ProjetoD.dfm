@@ -26,21 +26,25 @@ object Form1: TForm1
       Caption = 'Venda'
       object mnPedido: TMenuItem
         Caption = 'Pedido'
+        OnClick = mnPedidoClick
       end
     end
     object mnPrincipalCadastro: TMenuItem
       Caption = 'Cadastros'
       object mnCadastroClientes: TMenuItem
         Caption = 'Clientes'
+        OnClick = mnCadastroClientesClick
       end
       object mnCadastroProdutos: TMenuItem
         Caption = 'Produtos'
+        OnClick = mnCadastroProdutosClick
       end
     end
     object mnPrincipalRelatorio: TMenuItem
       Caption = 'Relat'#243'rios'
       object mnRelatorioCaixa: TMenuItem
         Caption = 'Caixa'
+        OnClick = mnRelatorioCaixaClick
       end
     end
     object mnPrincipalSair: TMenuItem
